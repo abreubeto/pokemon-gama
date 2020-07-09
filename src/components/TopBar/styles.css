@@ -1,0 +1,22 @@
+.topBar{
+  display: flex;
+  background-color: #EF5350;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.topBar a{
+  width: 100%;
+  align-items: center;
+}
+.topBar img{
+  max-width: 240px;
+  max-height: 300px;
+  padding:8px 24px 12px 24px;
+  cursor: pointer;
+}
+
+
+
+
