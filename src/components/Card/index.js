@@ -31,20 +31,20 @@ export default function Card({ pokemon, addToCart }) {
       
       <button onClick={() => {
         store.addNotification({
-          title: 'Adicionado ao carrinho',
+          title: 'Pokémon adicionado',
           insert: 'bottom',
-          type: 'info',
+          type: 'success',
           message: currentPokemon.name,
           container: 'bottom-right',
           dismiss: {
-            duration: 1500,
+            duration: 1000,
             onScreen: true
           }
         });
         return addToCart(currentPokemon)
       }
       }
-      >Eu quer esse!</button>
+      >Eu quero esse!</button>
     </div>
   );
 }
